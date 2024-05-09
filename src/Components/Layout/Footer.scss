@@ -1,0 +1,44 @@
+.footer__container {
+  height: 100%;
+  width: 90%;
+
+  margin: auto;
+
+  h4 {
+    font-size: 2vw;
+
+    opacity: var(--accent-opacity);
+
+    margin: 0;
+  }
+
+  ul {
+    display: flex;
+
+    flex-flow: wrap;
+
+    margin: 0;
+
+    padding-inline-start: 0;
+
+    list-style: none;
+
+    li {
+      padding-right: 3vw;
+
+      a {
+        font-size: 2.5vw;
+      }
+    }
+  }
+
+  &__copyright {
+    margin-top: 5vh;
+
+    font-size: 2.5em;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}

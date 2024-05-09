@@ -1,0 +1,29 @@
+@import "../../styles/themes";
+
+.layout {
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: flex;
+
+  flex-direction: column;
+
+  background-color: var(--background-color);
+  color: var(--accent-color);
+
+  transition: background-color 200ms linear;
+
+  &__header {
+    height: 30vh;
+  }
+
+  &__navigation {
+    flex: 1;
+  }
+
+  &__footer {
+    margin-top: 20vh;
+
+    height: 30vh;
+  }
+}

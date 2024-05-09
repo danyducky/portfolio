@@ -1,0 +1,27 @@
+.theme-toggle-button {
+  border: none;
+  background-color: transparent;
+  color: var(--accent-color);
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, var(--accent-color), var(--accent-color));
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s, background-position 0s 0.3s; /*change after the size immediately*/
+}
+.theme-toggle-button[data-theme=dark]:before {
+  content: "Light";
+}
+.theme-toggle-button[data-theme=light]:before {
+  content: "Dark";
+}
+.theme-toggle-button:hover {
+  cursor: pointer;
+  background-position: 100% 100%; /*OR bottom right*/
+  background-size: 100% 1px;
+}
+
+/*# sourceMappingURL=Theme.css.map */

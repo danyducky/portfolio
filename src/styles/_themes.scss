@@ -1,0 +1,15 @@
+@import 'colors';
+
+/* Data Themes */
+
+html[data-theme='light'] {
+  --background-color: #{$background-primary-light};
+  --accent-color: #{$accent-primary-light};
+  --accent-opacity: #{$accent-opacity-light};
+}
+
+html[data-theme='dark'] {
+  --background-color: #{$background-primary-dark};
+  --accent-color: #{$accent-primary-dark};
+  --accent-opacity: #{$accent-opacity-dark};
+}

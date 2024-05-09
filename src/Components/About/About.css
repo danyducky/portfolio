@@ -1,0 +1,39 @@
+.about__container__title {
+  margin: 4vh auto 0;
+  width: 50%;
+  height: 70vh;
+}
+.about__container__title h1 {
+  padding: 0;
+  line-height: 1.05em;
+  margin-bottom: 0.2em;
+}
+.about__container__title h4 {
+  padding: 0;
+  margin: 0;
+}
+.about__container__section {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+  margin: auto;
+}
+.about__container__section__title {
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+.about__container__section__content {
+  font-size: 1.5vw;
+}
+.about__container__section__content__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.wide-intro {
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+/*# sourceMappingURL=About.css.map */

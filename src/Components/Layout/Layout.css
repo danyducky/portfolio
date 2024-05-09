@@ -1,0 +1,36 @@
+/* Light Theme */
+/* Dark Theme */
+/* Data Themes */
+html[data-theme=light] {
+  --background-color: #fff;
+  --accent-color: #000;
+  --accent-opacity: 0.25;
+}
+
+html[data-theme=dark] {
+  --background-color: #000;
+  --accent-color: #fff;
+  --accent-opacity: 0.5;
+}
+
+.layout {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  transition: background-color 200ms linear;
+}
+.layout__header {
+  height: 30vh;
+}
+.layout__navigation {
+  flex: 1;
+}
+.layout__footer {
+  margin-top: 20vh;
+  height: 30vh;
+}
+
+/*# sourceMappingURL=Layout.css.map */

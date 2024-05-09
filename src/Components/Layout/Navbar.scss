@@ -1,0 +1,32 @@
+.navbar {
+  height: 100%;
+  width: 90%;
+
+  display: flex;
+
+  align-items: center;
+
+  margin: auto;
+
+  &__logo {
+    font-size: 3rem;
+
+    width: 100%;
+  }
+
+  &__tabs {
+    display: flex;
+
+    width: 100%;
+
+    justify-content: right;
+
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    & > *:not(:last-child) {
+      margin-right: 4rem;
+    }
+  }
+}

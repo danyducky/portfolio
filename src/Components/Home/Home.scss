@@ -1,0 +1,41 @@
+.home__container {
+  margin: 4vh auto 0;
+
+  width: 50%;
+
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  h4 {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.large-intro {
+  font-size: 5vw;
+
+  letter-spacing: 0.25rem;
+}
+
+.medium-intro {
+  font-size: 3vw;
+}
+
+.small-intro {
+  font-size: 1.5vw;
+}
+
+.smaller-intro {
+  font-size: 1.1vw;
+}
+
+.weight-light {
+  font-weight: 100;
+}
+
+.weight-medium {
+  font-weight: 500;
+}
